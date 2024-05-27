@@ -84,7 +84,7 @@ int main()
 	Monster test2(name1, hp1);
 	Monster test3(test2); //복사 생성자 호출로, test2와 멤버 변수 값이 일치하는 객체
 	Monster test4(name1, hp2); //test2, 3과 이름만 같은 객체
-	Monster test5(name2, hp1); //test2, 3과 hp만 같은 객체
+	Monster test5(name2, 50); //test2, 3과 hp만 같은 객체
 	if (test2 == test3)
 		cout << "(TEST)it is same" << endl; //두 객체의 멤버 변수가 모두 일치하므로 해당 메세지 출력
 	test3 = test2; //두 객체의 멤버 변수가 모두 일치하므로 복사되지 않고, 복사할 수 없다는 메세지가 출력될 것이다.
