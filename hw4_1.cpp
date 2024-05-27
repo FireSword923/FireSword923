@@ -4,7 +4,7 @@ using namespace std;
 
 class Monster {
 private:
-	int ImHappy;
+	int ImUnHappy;
 	char* name; //몬스터의 이름에 대한 멤버 변수
 	int hp; //몬스터의 hp에 대한 멤버 변수
 	bool init; //초기화 여부(name 동적 할당 여부) 확인
